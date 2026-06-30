@@ -1,0 +1,56 @@
+experiments:
+  - name: E00_real_only
+    use_real: true
+    use_traditional_aug: false
+    use_cae: false
+    use_vae: false
+    use_gan: false
+
+  - name: E01_real_traditional
+    use_real: true
+    use_traditional_aug: true
+    use_cae: false
+    use_vae: false
+    use_gan: false
+
+  - name: E02_real_cae
+    use_real: true
+    use_traditional_aug: false
+    use_cae: true
+    use_vae: false
+    use_gan: false
+
+  - name: E03_real_vae
+    use_real: true
+    use_traditional_aug: false
+    use_cae: false
+    use_vae: true
+    use_gan: false
+
+  - name: E04_real_gan
+    use_real: true
+    use_traditional_aug: false
+    use_cae: false
+    use_vae: false
+    use_gan: true
+
+  - name: E05_all
+    use_real: true
+    use_traditional_aug: true
+    use_cae: true
+    use_vae: true
+    use_gan: true
+
+  - name: E06_real_cae_vae
+    use_real: true
+    use_traditional_aug: false
+    use_cae: true
+    use_vae: true
+    use_gan: false
+
+  - name: E07_real_vae_gan
+    use_real: true
+    use_traditional_aug: false
+    use_cae: false
+    use_vae: true
+    use_gan: true

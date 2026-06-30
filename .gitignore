@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+outputs/**/*.pt
+outputs/**/*.png
+outputs/**/*.csv
+outputs/**/*.json
+data/metadata/*.csv
+data/generated/**/*.png
+presentation/
+plan_implementacion.md
+requirements.txt
