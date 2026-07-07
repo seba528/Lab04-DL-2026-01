@@ -3,12 +3,10 @@ __pycache__/
 .pytest_cache/
 .venv/
 outputs/**/*.pt
-outputs/**/*.png
 outputs/**/*.csv
 outputs/**/*.json
 outputs/sweeps/
 data/metadata/*.csv
-data/generated/**/*.png
 presentation/
 plan_implementacion.md
 requirements.txt
